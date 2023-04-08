@@ -53,6 +53,7 @@ body {
     -o-object-fit: cover;
     object-fit: cover;
     margin: 0 auto;
+    margin-bottom: -75px;
     background: lightsteelblue;
     overflow: hidden;
     border-radius: 50%;
@@ -60,6 +61,29 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+h2 {
+    margin-left: -170px;
+}
+
+.contents .sub-introduce {
+    margin-left: -170px;
+}
+
+.contents .introduce {
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .card .cover img {
@@ -70,6 +94,7 @@ body {
 .card .contents {
     flex: 1 0 0;
     margin: 0 0 -8px;
+    
 }
 
 .card .contents h2 {
@@ -114,8 +139,34 @@ body {
     -o-border-radius: 100px;
 }
 
+.card .skill .HTML5 {
+    background-color: red;
+}
+
+.card .skill .SASS {
+    background-color: palevioletred;
+}
+
+.card .skill .JavaScript {
+    color: black;
+    background-color: yellow;
+}
+
+.card .skill .Github {
+    background-color: black;
+}
+
+.card .contents .introduce {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
 .card .skill li i {
     padding-right: 4px;
+}
+
+.card .contents .sub-introduce {
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {

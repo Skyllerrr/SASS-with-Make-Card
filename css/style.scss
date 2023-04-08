@@ -83,8 +83,9 @@ body {
         margin: 8px 0 0;
         @include font(desc, center, #fff);
         @include v-prefix(radius, 40px);
-        background-color: red;
+        
     }
 
     
 }
+
