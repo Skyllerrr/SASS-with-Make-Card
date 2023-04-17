@@ -86,6 +86,10 @@ p {
     margin-left: 10px;
 }
 
+a {
+    color: blue;
+}
+
 .card .cover img {
     width: 100%;
     display: block;
